@@ -1,0 +1,108 @@
+
+<!-- HTML tag is used to represent that web page is made as HTML -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!-- head descript the summarized information of page -->
+  <head>
+    <!-- UTF-8 유니코드. 웹브라우저 자체에서 어떠한 유니코드로 읽어야 할지 전달. Client에게 전달해주는 정보..! -->
+    <meta charset="utf-8">
+    <title>title of Web study for Humanoiid</title>
+  </head>
+  <!-- body descript the several information, contents of page -->
+  <body>
+    <a href="test.html"><h1>Web study for Humanoiid</h1></a>
+
+
+    본 페이지는 생활코딩 WEB1-HTML&Internet 강의 및 관련 요소들을 참고하여 테스트 해본 HTML 파일 입니다.<br>
+
+    Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.<br>
+
+    HTML 예제로서 혹시나 참고한다면, 해당 HTML 파일의 마크다운 내용과 실제 웹브라우저 결과물을 함께 보시면 좋습니다.
+
+    <!-- list 예시 -->
+    <ol>
+      <a href="test_sub1.html"><li>test_sub1</li></a>
+      <a href="test_sub2.html"><li>test_sub2</li></a>
+      <li>&lt;li&gt; is used to represent list</li>
+      <li>&lt;ol&gt; is used to device list group and give the order on the list</li>
+    </ol>
+    <ul>
+      <li>&lt;ul&gt; is used to devide list group without order</li>
+      <li>list example</li>
+      <li>list example</li>
+      <li>list example</li>
+    </ul>
+
+
+    <!-- Tag 종류 정리 -->
+    <h2>type of Tag</h2>
+      <h3>tags can be applied on the text</h3>
+        <strong>* Bold: </strong>if you want to bold the text, you can use <strong>&lt;strong&gt;</strong> and <strong>&lt;/strong&gt;</strong> at the front and back of the text <br>
+        <strong>* underline: </strong>if you want to underline the text, you can use <u>&lt;u&gt;</u> and <u>&lt;/u&gt;</u> at the front and back of the text <br>
+        <strong>* Heading: </strong>heading is make the text as heading. you can use &lt;h1&gt;, h2, h3, ... ,h6 tag at the front and back of the text.
+        <h1>Heading test 1</h1>
+        <h2>Heading test 2</h2>
+        <h3>Heading test 3</h3>
+        <h4>Heading test 4</h4>
+        <h5>Heading test 5</h5>
+        <h6>Heading test 6</h6> <br>
+        <strong>* Paragraph: </strong> <p>by <strong>&lt;p&gt;</strong> you can make the paragraph. with the paragraph tag, we can make grouping several paragraph of the text. as there are no special idea for the text, I'm typing meaning less words and sentense on this paragraph.</p>
+        <p>those text are the example of paragraph in HTML. this paragraph also does not have important meaning. As I am the newbie of HTML and web developer, it is not easy to make those things.</p>
+        <p style="margin-top:45px;">as adding CSS(cascading style sheets), we can optimize each HTML tag. below paragraphs are same text with CSS added <strong>&lt;p&gt;</strong> tag. (<strong>&lt;p style="margin-top:45px;"&gt;</strong>)</p>
+        <p style="margin-top:45px;"> by <strong>&lt;p&gt;</strong> you can make the paragraph. with the paragraph tag, we can make grouping several paragraph of the text. as there are no special idea for the text, I'm typing meaning less words and sentense on this paragraph.</p>
+        <p style="margin-top:45px;">those text are the example of paragraph in HTML. this paragraph also does not have important meaning. As I am the newbie of HTML and web developer, it is not easy to make those things.</p>
+    <!-- text를 감싸지 않는 tag들 -->
+      <h3>tags not for the text</h3>
+        <strong>* &lt;br&gt;: </strong><br> break line to cut the line and go to next line text block. <a href="ttps://developer.mozilla.org/ko/docs/Web/HTML/Element/br" target="_blank">br link</a> <br>
+        <strong>* &lt;img&gt;: </strong><br> insert image with [source image file] and [text description]. <a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/img#">img link</a> <br>
+        <strong>* &lt;input&gt;: </strong><br> make the control box that user can type the text. <a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input#">input link</a> <br>
+        <strong>* &lt;hr&gt;: </strong><br> hr can devide paragraph with the line.<hr> <br>
+        <strong>* &lt;meta&gt;: </strong><br>meta means meta data that &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt;, &lt;title&gt; can not show.... <a href="https://developer.mozilla.org/ko/docs/Web/HTML/Element/meta#">meta link</a> <br>
+
+
+        <strong>* &lt;a&gt;: </strong><br>
+        example of hypertext for link. the other liks are the example to show hypertext with the visualized text. below is the hypertext visulaized in image <br>
+        <a href="https://ca.slack-edge.com/THQDY02N9-U01J655R0SE-0b528d6d1d82-512"><img src="https://ca.slack-edge.com/THQDY02N9-U01J655R0SE-0b528d6d1d82-512",alt="big thinking-face", width="10%"><br></a>
+
+
+
+
+
+
+    <h2>print special text</h2>
+      <body>
+      <strong>* references(in korean): </strong> <a href="http://mwultong.blogspot.com/2006/10/html-css-less-than-greater-than-sign.html#">blank for HTML</a> <br>
+      </body>
+
+
+    <h2>About the Attribute(속성)</h2>
+      <strong>image: </strong><br>
+      <!-- load image from source page. it can be replaced with other files.. -->
+      <img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png", width="15%">
+      <img src="https://ca.slack-edge.com/THQDY02N9-U01J655R0SE-0b528d6d1d82-512",alt="thinking-face image from url", width="15%">
+      <img src="https://ca.slack-edge.com/THQDY02N9-U01J655R0SE-0b528d6d1d82-512",alt="/materials/thinking-face.png", width="15%"> <br>
+      the size can be optimized with <strong>Attribute : width</strong>. (example. width="100%") <br>
+
+    🤔 <br>
+    기술 정보 <br>
+    유니 코드 이름	Thinking Face <br>
+    유니 코드 번호	U+1F914 <br>
+    HTML코드	&#129300; <br>
+    CSS 코드	\1F914 <br>
+    Block	Supplemental Symbols and Pictographs <br>
+    유니 코드 버전:	8.0 (2015) <br>
+    이모티콘 버전:	1.0 (2015) <br>
+    이모콘 카테고리:	스마일 & 감정 <br>
+    Emoji subcategory:	손으로 얼굴 <br>
+
+
+
+
+    <br><br><br>
+
+    <h2>Information for study</h2>
+      <strong>* MAIN HTML Study page: </strong><a href="https://opentutorials.org/course/3084">https://opentutorials.org/course/3084</a> <br>
+      <strong>* HTML 관련 통계 페이지: </strong><a href="https://www.advancedwebranking.com/html/">https://www.advancedwebranking.com/html/</a> <br>
+      <strong>* Thinking-face unicode: </strong><a href="https://unicode-table.com/kr/1F914/">https://unicode-table.com/kr/1F914/</a> <br>
+  </body>
+</html>
