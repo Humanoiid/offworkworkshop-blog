@@ -1,0 +1,60 @@
+baseURL = "http://example.org/"
+# languageCode = "en-us"
+title = "OffworkWorkshop"
+theme = "m10c"
+paginate = 5
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+
+[params]
+    author = "Humanoiid"
+    description = "I just Do what i want"
+    # avatar =  Path of file containing the author avatar image
+    menu_item_separator = "-"
+    favicon= "/favicon.ico"
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/Humanoiid"
+
+    [params.style]
+        darkestColor = "#1D4CC2" # background of profile and menu
+        darkColor = "#212121" # background of text
+        lightColor =  "#FFE9B3" # ivory (for description
+        lightestColor = "#dbd5d5" # gray (for Title text)
+        primaryColor = "#fff" # white (text)
+
+# Brown theme
+  #[params.style]
+  #  darkestColor = "#463625"
+  #  darkColor = "#2a3738"
+  #  primaryColor = "#eeee6a"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#ffffff"
+
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  primaryColor = "#dad865"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+
+  # Red and black theme
+  #[params.style]
+  #  darkestColor = "#d35050"
+  #  darkColor = "#212121"
+  #  primaryColor = "#ffffff"
+  #  lightColor = "#a2a2a2"
+  #  lightestColor = "#d3d3d3"
